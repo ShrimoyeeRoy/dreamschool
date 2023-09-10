@@ -14,7 +14,7 @@ export const Contactus = () => {
         subject: "",
         message: ""
     })
-    
+
     const handleInput = (e) => {
         const { name, value } = e.target;
         setContact({ ...contact, [name]: value });
@@ -35,9 +35,11 @@ export const Contactus = () => {
                 <main id="main">
                     {/* ======= Breadcrumbs ======= */}
                     <div className="breadcrumbs" data-aos="fade-in">
-                        <div className="container">
-                            <h2>Contact Us</h2>
-                            <h3 style={{ color: "yellow" }}><b>WE'D LOVE TO HEAR FROM YOU</b></h3>
+                        <div className="container borderbottom">
+
+                            <h1>Contact Us</h1>
+
+                            <h3 style={{ color: "black" }}><b>WE'D LOVE TO HEAR FROM YOU</b></h3>
                         </div>
                     </div>
                     {/* End Breadcrumbs */}
@@ -87,7 +89,7 @@ export const Contactus = () => {
                                     <form
                                         onSubmit={handleContact}
                                         action="forms/contact.php"
-                                      
+
                                         className="php-email-form"
                                     >
                                         <div className="query_form">
