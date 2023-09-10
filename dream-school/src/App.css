@@ -81,36 +81,41 @@ a {
 }
 
 /*=====admission=====*/
-.admission {
-  margin-top: 3rem;
-}
+
 
 
 
 /*=========signup=====*/
 .g-3 {
-  width: 40%;
+  width: 70%;
   margin: auto;
-  margin-top: 6rem;
   margin-bottom: 2rem;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   padding: 10px;
   border-radius: 20px;
 }
-.col-12>button{
-background-color: #03045a;
-color: whitesmoke;
+
+.col-12>button {
+  background-color: #03045a;
+  color: whitesmoke;
 }
-.col-12>button:hover{
-background-color: yellow;
+
+
+.submitbutton hover {
+  background-color: yellow;
 }
 
 /*======gallery=====*/
-.section-title1 {
-  margin-top: 4rem;
+.imageholder {
+  height: 200px;
+  overflow: hidden;
 }
-.cultural_gallery{
-margin-top: 4rem;}
+
+
+
+.cultural_gallery {
+  margin-top: 1rem;
+}
 
 .cultural1 {
   margin: auto;
@@ -118,14 +123,34 @@ margin-top: 4rem;}
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   gap: 25px;
+  height: auto;
   width: 95%;
-  border: 1px solid blue;
+
+}
+
+.trainers .member {
+  text-align: center;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #eef0ef;
+}
+
+.trainers .member .cultural_gallery img {
+  margin: -1px -1px 0 -1px;
+}
+
+.trainers .member .member-content {
+  padding: 0 20px 30px 20px;
 }
 
 
 
 /*=======footer====*/
+.footerlogo>img {
+  height: 100px;
 
+
+}
 
 /*======contactus======*/
 .query_form {
@@ -146,21 +171,83 @@ margin-top: 4rem;}
 
 /*====signup=====*/
 
-#show{
-display: flex;
-gap: 5px;
-margin-top: 15px;
-margin-bottom: 2px;
+#show {
+  display: flex;
+  gap: 5px;
+  margin-top: 15px;
+  margin-bottom: 2px;
 
 }
 
-#login{
+#login {
 
-width: 20%;}
+  width: 20%;
+}
 
 /*====payment=====*/
-.pay{
-margin:auto;
+.pay {
+  margin: auto;
+  border: 1px solid blue;
+  width: 100%;
 
 
+}
+
+/*======signup,login button====*/
+.defaultText {
+  color: rgb(3, 3, 75);
+  font-weight: 550;
+}
+
+.submitbutton {
+  background-color: #03034B;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  width: max-content;
+}
+
+.submitbutton:hover {
+  background-color: #03034B;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  width: max-content;
+}
+
+.submitbutton:focus {
+  background-color: #03034B !important;
+  border-radius: 5px;
+  color: #fff !important;
+  font-weight: 600;
+  width: max-content;
+}
+
+.submitbutton:focus-visible {
+  background-color: #03034B !important;
+  border-radius: 5px;
+  color: #fff !important;
+  font-weight: 600;
+  width: max-content;
+}
+
+.submitbutton:active {
+  background-color: #03034B !important;
+  border-radius: 5px;
+  color: #fff !important;
+  font-weight: 600;
+  width: max-content;
+}
+
+.form-wrapper {
+  padding: 10px 0px;
+}
+
+.form-wrapper>h5 {
+  color: #03034B;
+}
+
+.borderbottom {
+  border-bottom: 2px solid;
+  width: fit-content;
 }

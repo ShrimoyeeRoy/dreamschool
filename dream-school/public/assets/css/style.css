@@ -489,7 +489,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -498,7 +498,7 @@ section {
 }
 
 .section-title {
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .section-title h2 {
@@ -547,6 +547,7 @@ section {
   padding: 30px 0;
   color: yellow;
 }
+
 
 @media (max-width: 992px) {
   .breadcrumbs {
@@ -1653,4 +1654,36 @@ section {
   line-height: 2;
 
   text-shadow: 2px 4px #180c5e;
+}
+
+.counterholder1 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0px 5px;
+}
+
+.submitbutton :focus {
+  background-color: #03034B;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  width: max-content;
+}
+
+.submitbutton :focus-visible {
+  background-color: #03034B;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  width: max-content;
+}
+
+.submitbutton :active {
+  background-color: #03034B;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  width: max-content;
 }

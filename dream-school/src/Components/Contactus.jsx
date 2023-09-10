@@ -1,4 +1,34 @@
-export function Contactus() {
+import React, { useState } from "react";
+import axios from "axios";
+const contactData = (user) => {
+    axios.post("http://127.0.0.1:8008/v1/api/contactus", user)
+        .then((res) => alert(res.data))
+        .catch((err) => alert(err.message))
+
+};
+
+export const Contactus = () => {
+    const [contact, setContact] = useState({
+        name: "",
+        email: "",
+        subject: "",
+        message: ""
+    })
+    
+    const handleInput = (e) => {
+        const { name, value } = e.target;
+        setContact({ ...contact, [name]: value });
+    }
+    const handleContact = (e) => {
+        e.preventDefault();
+        contactData(contact)
+        setContact({
+            name: "",
+            email: "",
+            subject: "",
+            message: ""
+        })
+    }
     return (
         <>
             <>
@@ -55,9 +85,9 @@ export function Contactus() {
                                     </div>
 
                                     <form
+                                        onSubmit={handleContact}
                                         action="forms/contact.php"
-                                        method="post"
-                                        role="form"
+                                      
                                         className="php-email-form"
                                     >
                                         <div className="query_form">
@@ -65,6 +95,8 @@ export function Contactus() {
                                                 <div className="col-md-6 form-group">
                                                     <input
                                                         type="text"
+                                                        value={contact.name}
+                                                        onChange={handleInput}
                                                         name="name"
                                                         className="form-control"
                                                         id="name"
@@ -75,6 +107,8 @@ export function Contactus() {
                                                 <div className="col-md-6 form-group mt-3 mt-md-0">
                                                     <input
                                                         type="email"
+                                                        value={contact.email}
+                                                        onChange={handleInput}
                                                         className="form-control"
                                                         name="email"
                                                         id="email"
@@ -86,6 +120,8 @@ export function Contactus() {
                                             <div className="form-group mt-3">
                                                 <input
                                                     type="text"
+                                                    value={contact.subject}
+                                                    onChange={handleInput}
                                                     className="form-control"
                                                     name="subject"
                                                     id="subject"
@@ -97,6 +133,8 @@ export function Contactus() {
                                                 <textarea
                                                     className="form-control"
                                                     name="message"
+                                                    value={contact.message}
+                                                    onChange={handleInput}
                                                     rows={5}
                                                     placeholder="Message"
                                                     required=""

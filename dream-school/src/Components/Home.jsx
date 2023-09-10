@@ -18,14 +18,14 @@ export function Home() {
                     <div className="carousel-item">
                         <img src="https://www.christinak12.org/cms/lib/DE50000539/Centricity/Domain/27/Marshall%20Elementary%20School.jpg" className="d-block w-100" alt="f2" />
                         <div className="carousel-caption d-none d-md-block">
-                            <h1 style={{ color: "#ffff00" }}>WELCOME TO CONVENT SCHOOL</h1>
+                            <h1 style={{ color: "#ffff00" }}> CONVENT SCHOOL</h1>
 
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src="https://images.theconversation.com/files/431742/original/file-20211112-15-usg8m.jpg?ixlib=rb-1.1.0&rect=45%2C0%2C5119%2C3356&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip" className="d-block w-100" alt="f3" />
                         <div className="carousel-caption d-none d-md-block">
-                            <h1 style={{ color: "#ffff00" }}>WELCOME TO CONVENT SCHOOL</h1>
+                            <h1 style={{ color: "#ffff00" }}>JALPAIGURI</h1>
 
                         </div>
                     </div>
@@ -151,44 +151,52 @@ export function Home() {
                     <div className="container">
                         <div className="row counters">
                             <div className="col-lg-3 col-6 text-center">
-                                <span
-                                    data-purecounter-start={0}
-                                    data-purecounter-end={1232}
-                                    data-purecounter-duration={1}
-                                    className="purecounter"
-                                />
-                                <p style={{ color: "blue" }}>Students</p>
-                                <h1 style={{ color: "yellow" }}>1200</h1>
+                                <div className="counterholder1" >
+                                    <span
+                                        data-purecounter-start={0}
+                                        data-purecounter-end={1232}
+                                        data-purecounter-duration={1}
+                                        className="purecounter"
+                                    />
+                                    <h2 style={{ color: "blue" }}>Students</h2>
+                                    <h1 style={{ color: "black" }}>1200+</h1>
+                                </div>
                             </div>
                             <div className="col-lg-3 col-6 text-center">
-                                <span
-                                    data-purecounter-start={0}
-                                    data-purecounter-end={64}
-                                    data-purecounter-duration={1}
-                                    className="purecounter"
-                                />
-                                <p style={{ color: "blue" }}>Class</p>
-                                <h1 style={{ color: "yellow" }}>12</h1>
+                                <div className="counterholder1" >
+                                    <span
+                                        data-purecounter-start={0}
+                                        data-purecounter-end={64}
+                                        data-purecounter-duration={1}
+                                        className="purecounter"
+                                    />
+                                    <h2 style={{ color: "blue" }}>Class</h2>
+                                    <h1 style={{ color: "black" }}>12</h1>
+                                </div>
                             </div>
                             <div className="col-lg-3 col-6 text-center">
-                                <span
-                                    data-purecounter-start={0}
-                                    data-purecounter-end={42}
-                                    data-purecounter-duration={1}
-                                    className="purecounter"
-                                />
-                                <p style={{ color: "blue" }}>Events</p>
-                                <h1 style={{ color: "yellow" }}>10</h1>
+                                <div className="counterholder1" >
+                                    <span
+                                        data-purecounter-start={0}
+                                        data-purecounter-end={42}
+                                        data-purecounter-duration={1}
+                                        className="purecounter"
+                                    />
+                                    <h2 style={{ color: "blue" }}>Events</h2>
+                                    <h1 style={{ color: "black" }}>10+</h1>
+                                </div>
                             </div>
                             <div className="col-lg-3 col-6 text-center">
-                                <span
-                                    data-purecounter-start={0}
-                                    data-purecounter-end={15}
-                                    data-purecounter-duration={1}
-                                    className="purecounter"
-                                />
-                                <p style={{ color: "blue" }}>Trainers</p>
-                                <h1 style={{ color: "yellow" }}>14</h1>
+                                <div className="counterholder1" >
+                                    <span
+                                        data-purecounter-start={0}
+                                        data-purecounter-end={15}
+                                        data-purecounter-duration={1}
+                                        className="purecounter"
+                                    />
+                                    <h2 style={{ color: "blue" }}>Trainers</h2>
+                                    <h1 style={{ color: "black" }}>14+</h1>
+                                </div>
                             </div>
                         </div>
                     </div>

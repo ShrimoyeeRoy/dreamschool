@@ -28,7 +28,7 @@ export function Navbar() {
                                 <a href="/notice">Notice</a>
                             </li>
                             <li>
-                                <a href="/contact us">Contact us</a>
+                                <a href="/contact_us">Contact us</a>
                             </li>
                             <li className="dropdown">
                                 <a href="/gallery">
@@ -46,14 +46,14 @@ export function Navbar() {
                             data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i style={{ color: "white" }} className="bi bi-list mobile-nav-toggle" /></button>
 
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                            <div class="offcanvas-header">
-                                <h5 id="offcanvasRightLabel">CONVENT SCHOOL</h5>
+                            <div class="offcanvas-header ">
+                                <h1 id="offcanvasRightLabel  ">CONVENT SCHOOL</h1>
                                 <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
                                 <ol style={{ listStyleType: "none" }} >
                                     <li data-bs-dismiss="offcanvas" className="menuoffcanvas"  >
-                                        <a style={{ color: "black", padding: "5px", margin: "2px" }} href="/">
+                                        <a style={{ color: "black" }} href="/">
                                             Home
                                         </a>
                                     </li>

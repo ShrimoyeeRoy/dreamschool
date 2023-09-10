@@ -2,6 +2,11 @@ export function Admission() {
     return (
         <>
             <main>
+                <div className="breadcrumbs" data-aos="fade-in">
+                    <div className="container borderbottom">
+                        <h2>Admission</h2>
+                    </div>
+                </div>
                 <section id="about" className="admission">
                     <div className="container" data-aos="fade-up">
                         <div className="row">
@@ -18,7 +23,7 @@ export function Admission() {
                                 </h3>
                                 <ul>
                                     <li>
-                                        The age of admission to Class Nursery is Three (3) years plus as on date of admission..
+                                        The age of admission to Class One(1) is Five (5) years plus as on date of admission..
                                     </li>
                                     <li>
                                           Parents must bring their child at the time of admission.

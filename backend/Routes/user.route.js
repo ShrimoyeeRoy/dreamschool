@@ -21,9 +21,17 @@ route.post("/signup", async (req, res) => {
     }
 });
 
+route.get("/signup", async (req, res) => {
+    try {
+        const getSign = await User.find()
+        res.status(200).send({ User: getSign });
+    } catch (error) {
+        res.status(500).send({ message: error.message });
+    }
+})
 
 route.post("/login", async (req, res) => {
-    console.log(req.body)
+   
     const { email, password } = req.body;
     try {
         const isEmailPresent = await User.findOne({ email });

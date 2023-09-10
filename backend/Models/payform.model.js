@@ -36,6 +36,9 @@ const payformSchema = new Schema({
     fees: {
         type: Number,
         require: true
+    },
+    paymentScreenshot: {
+        type: String,
     }
 
 }, { timestamps: true });

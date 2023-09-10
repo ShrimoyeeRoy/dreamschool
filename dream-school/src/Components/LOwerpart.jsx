@@ -11,15 +11,15 @@ export function LOwerpart() {
                                 <div className="col-lg-3 col-md-6 footer-contact">
                                     <h3>CONVENT</h3>
                                     
-                                    <p><span><i class="bi bi-geo-alt-fill"></i></span>Asam More<br />
+                                    <p><span><i class="bi bi-geo-alt-fill"></i></span>{" "}Asam More<br />
                                         Jalpaiguri
                                         <br />
                                         West Bengal <br />
                                         pin-735101
                                         <br />
-                                        <span><i class="bi bi-telephone-fill"></i></span> <strong>Phone:</strong> +918741236987
+                                        <span><i class="bi bi-telephone-fill"></i></span> {" "}<strong>Phone:</strong> +918741236987
                                         <br />
-                                        <span><i class="bi bi-envelope-at-fill"></i></span> <strong>Email:</strong> convent@gmail.com
+                                        <span><i class="bi bi-envelope-at-fill"></i></span>{" "} <strong>Email:</strong> convent@gmail.com
                                         <br />
                                     </p>
                                 </div>
@@ -57,6 +57,14 @@ export function LOwerpart() {
                                         </li>
                                         
                                     </ul>
+                                </div>
+                                <div className="col-lg-3 col-md-6 footer-links">
+                                    <div className="footerlogo">
+                                        <img src="https://icon2.cleanpng.com/20171221/kyw/college-school-logo-label-5a3c30dfba1cf7.4870595615138941117623.jpg" alt="f1" />
+                                    <p>Convent School</p>
+                                    
+                                    </div>
+                                
                                 </div>
                                 
                                 

@@ -1,7 +1,9 @@
 const express = require("express");
 const { mongoose } = require("mongoose");
 const userRoute = require("./Routes/user.route.js");
-const payformRoute=require("./Routes/payform.route.js")
+const payformRoute = require("./Routes/payform.route.js");
+const contactusRoute = require("./Routes/contactus.route.js")
+const paymentScreenshot=require("./Routes/payment.route.js")
 const cors=require("cors")
 
 const app = express()
@@ -12,7 +14,9 @@ app.use(cors());
 // })
 
 app.use("/v1/api",userRoute);
-app.use("/v1/api",payformRoute);
+app.use("/v1/api", payformRoute);
+app.use("/v1/api", contactusRoute);
+app.use("/v1/api", paymentScreenshot);
 
 const MONGO_URI = "mongodb+srv://shrimoyee912:shrimoyee@cluster0.yc52dps.mongodb.net/school";
 const connect = async () => {
