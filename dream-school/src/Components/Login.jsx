@@ -36,7 +36,7 @@ export const Login = () => {
 
             <div className="breadcrumbs" data-aos="fade-in">
                 <div className="container borderbottom">
-                    <h2>Log In</h2>
+                    <h1>Log In</h1>
                 </div>
             </div>
             <form className="row g-3 mt-3" onSubmit={handleSubmitLog}>

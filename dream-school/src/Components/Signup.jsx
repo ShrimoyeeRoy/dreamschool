@@ -45,7 +45,7 @@ export function Signup() {
         <>
             <div className="breadcrumbs" data-aos="fade-in">
                 <div className="container borderbottom">
-                    <h2>Sign Up</h2>
+                    <h1>Sign Up</h1>
                 </div>
             </div>
             

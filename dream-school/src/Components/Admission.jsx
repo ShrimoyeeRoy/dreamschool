@@ -4,7 +4,7 @@ export function Admission() {
             <main>
                 <div className="breadcrumbs" data-aos="fade-in">
                     <div className="container borderbottom">
-                        <h2>Admission</h2>
+                        <h1>Admission</h1>
                     </div>
                 </div>
                 <section id="about" className="admission">

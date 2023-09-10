@@ -62,7 +62,7 @@ export const Payform = () => {
         <>
             <div className="breadcrumbs" data-aos="fade-in">
                 <div className="container borderbottom ">
-                    <h2>Payment</h2>
+                    <h1>Payment</h1>
 
                 </div>
             </div>
@@ -95,7 +95,7 @@ export const Payform = () => {
                     <div className="col-12">
                         <label htmlFor="inputPassword4" className="form-label">Standard</label>
 
-                        <select placeholder="1234" type="number" className="form-control" onChange={handleInput} name="standard" value={pay.standard} className="form-control" id="standard" required >
+                        <select placeholder="1234" type="number" className="form-control" onChange={handleInput} name="standard" value={pay.standard}  id="standard" required >
                             <option disabled selected>Choose...</option>
                             {standard.map((el) => (
                                 <option value={el}>{el}</option>

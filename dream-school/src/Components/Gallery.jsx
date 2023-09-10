@@ -1,56 +1,56 @@
-export function Gallery(){
+export function Gallery() {
 
     return (
         <>
             <div className="breadcrumbs" data-aos="fade-in">
                 <div className="container borderbottom">
-                    <h2>Gallery</h2>
+                    <h1>Gallery</h1>
                 </div>
             </div>
             <section id="trainers" className="trainers">
                 <div className="cultural_gallery">
-                <div className="container" data-aos="fade-up">
-                    <div className="section-title">
-                        <p>Cultural Program</p>
-                    </div>
-                    <div className="row" data-aos="zoom-in" data-aos-delay={100}>
-                        <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
-                            <div className="member imageholder">
-                                <img
-                                        src="https://assets.telegraphindia.com/telegraph/2023/Jul/1688511107_new-project-2.jpg"
-                                    className="img-fluid"
-                                    alt="matht"
-                                />
-                                
-                            </div>
+                    <div className="container" data-aos="fade-up">
+                        <div className="section-title">
+                            <p>Cultural Program</p>
                         </div>
-                        <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
-                                <div className="member imageholder ">
-                                <img
-                                    src="https://rainbowinternationalschool.in/wp-content/uploads/2022/09/6-excellent-ideas-to-innovate-cultural-programmes-in-school.jpg"
-                                    className="img-fluid"
-                                    alt="mt"
-                                />
-                               
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
+                        <div className="row" data-aos="zoom-in" data-aos-delay={100}>
+                            <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                                 <div className="member imageholder">
-                                <img
+                                    <img
+                                        src="https://assets.telegraphindia.com/telegraph/2023/Jul/1688511107_new-project-2.jpg"
+                                        className="img-fluid"
+                                        alt="matht"
+                                    />
+
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
+                                <div className="member imageholder ">
+                                    <img
+                                        src="https://rainbowinternationalschool.in/wp-content/uploads/2022/09/6-excellent-ideas-to-innovate-cultural-programmes-in-school.jpg"
+                                        className="img-fluid"
+                                        alt="mt"
+                                    />
+
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
+                                <div className="member imageholder">
+                                    <img
                                         src="https://www.doonvalleyschool.com/UserFiles/images/dvcs/activity-6.jpg"
-                                    className="img-fluid"
-                                    alt="dance"
-                                />
-                                
+                                        className="img-fluid"
+                                        alt="dance"
+                                    />
+
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </div>
             </section>
-            
+
             <div>
-            
+
             </div>
             <section id="trainers" className="trainers">
                 <div className="container" data-aos="fade-up">
@@ -91,8 +91,8 @@ export function Gallery(){
                     </div>
                 </div>
             </section>
-            
-            
+
+
             <section id="trainers" className="trainers">
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
@@ -132,7 +132,7 @@ export function Gallery(){
                     </div>
                 </div>
             </section>
-            
+
             <section id="trainers" className="trainers">
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
@@ -172,6 +172,6 @@ export function Gallery(){
                     </div>
                 </div>
             </section>
-            
+
         </>)
 }

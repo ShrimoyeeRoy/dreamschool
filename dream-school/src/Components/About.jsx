@@ -6,7 +6,7 @@ export function About() {
                     {/* ======= Breadcrumbs ======= */}
                     <div className="breadcrumbs" data-aos="fade-in">
                         <div className="container borderbottom">
-                            <h2>About Us</h2>
+                            <h1>About Us</h1>
                         </div>
                     </div>
                     {/* End Breadcrumbs */}

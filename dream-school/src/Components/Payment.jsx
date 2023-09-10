@@ -23,7 +23,8 @@ import axios from "axios";
     return (
         <div>
             <h1>Image Upload</h1>
-            <input type="file" name="image" className="form-control" onChange={handleImageChange} />
+            <input
+                type="file" name="image" className="form-control" onChange={handleImageChange} />
             <button onClick={handleImageUpload} className="btn btn-info">Upload Image</button>
         </div>
     );
